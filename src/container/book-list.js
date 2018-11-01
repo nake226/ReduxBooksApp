@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+
+/**
+ * コンテナー：reduxが管理するstateに直接アクセスできるcomponentのこと
+ */
 export default class BookList extends Component {
   // 受け取った書籍リストをレンダリング
   renderList() {
