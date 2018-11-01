@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 
 /**
- * コンテナー：reduxが管理するstateに直接アクセスできるcomponentのこと
+ * コンテナ：reduxが管理するstateに直接アクセスできるcomponentのこと
+ * コンテナの基準：data（state）をcareするcomponentかどうか
+ * → booklistは書籍リストという状態に関与するのでコンテナ。
  */
 export default class BookList extends Component {
   // 受け取った書籍リストをレンダリング
